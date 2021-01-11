@@ -152,3 +152,36 @@ body{
 .card:last-child{
     margin-right: 0px;
 }
+
+.card .icon{
+    display: block;
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    line-height: 110px;
+    text-align: center;
+    margin: 0px auto;
+    transition: all 200ms;
+}
+
+.icon:hover{
+    transform: scale(1.1,1.1);
+    color: #00538c;
+}
+
+.card .category{
+    width: 100%;
+    height: 50px;
+    font-family: "TrebuchetMS";
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    color: #00538c;
+}
+
+.card .description{
+    color: #00538c;
+    text-align: center;
+    font-family: "TrebuchetMS";
+    font-size: 15px;
+}
